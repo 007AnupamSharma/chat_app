@@ -28,21 +28,21 @@ const Auth = (props) => {
             <button onClick={signInWithGoogle}>Sign In With Google</button>
             </div>
         </div> */}
-        <div class="wrapper fadeInDown">
+        <div className="wrapper fadeInDown">
         <div id="formContent">
          
-            <h2 class="active"> Sign In </h2>
-            {/* <h2 class="inactive underlineHover">Sign Up </h2> */}
+            <h2 className="active"> Sign In </h2>
+            {/* <h2 className="inactive underlineHover">Sign Up </h2> */}
 
 
-            <div class="fadeIn first">
+            <div className="fadeIn first">
             {/* <img src="../images/user2.png" alt="user " srcset="" /> */}
             </div>
 
    
             <div>
-            {/* <input type="text" id="login" class="fadeIn second" name="login" placeholder="login"/>
-            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password"/> */}
+            {/* <input type="text" id="login" className="fadeIn second" name="login" placeholder="login"/>
+            <input type="text" id="password" className="fadeIn third" name="login" placeholder="password"/> */}
             <p>Sign in with Google to Continue </p>
             <button className=' btn' onClick={signInWithGoogle}>Sign In With Google</button>
   
@@ -50,7 +50,7 @@ const Auth = (props) => {
 
        
             <div id="formFooter">
-            <a class="underlineHover" href="#">end-to-end encrypted</a>
+            <a className="underlineHover" href="#">end-to-end encrypted</a>
             </div>
 
                 
